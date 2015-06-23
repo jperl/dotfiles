@@ -1,1 +1,1 @@
-alias slt='open -a "Sublime Text 2"'
+alias slt='open -a "Sublime Text"'
