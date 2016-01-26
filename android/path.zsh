@@ -1,11 +1,4 @@
 # Android SDK
-SDK="$(dirname ~/Library/Android/sdk/tools)"
+ANDROID_HOME="/Users/jperl/Library/Android/sdk"
 
-# Android SDK tools installed by Meteor
-SDK_TOOLS="${SDK}/tools";
-
-# Android SDK platform tools installed by Meteor
-SDK_PLATFORM_TOOLS="${SDK}/platform-tools";
-
-# Add the Android SDK to the path
-export PATH=$PATH:$SDK_TOOLS:$SDK_PLATFORM_TOOLS
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/23.0.1
